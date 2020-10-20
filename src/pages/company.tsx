@@ -67,7 +67,8 @@ export default function CompanyRoute(props: PageProps<any>) {
                             <PersonPhoto src={person.frontmatter.photo} />
                         </div>
                         <Section>
-                            {person.frontmatter.title}
+                            <h2>{person.frontmatter.name}</h2>
+                            <p>{person.frontmatter.title}</p>
                             <div dangerouslySetInnerHTML={{__html: person.html}} />
                         </Section>
                     </PersonPage>
