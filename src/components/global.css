@@ -3,4 +3,5 @@ body {
     margin: 0;
     font: 300 14px/1.5 'Museo Sans', Helvetica, sans-serif;
     color: #2c2c2c;
+    -webkit-font-smoothing: antialiased;
 }

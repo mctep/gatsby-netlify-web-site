@@ -6,12 +6,36 @@ media_folder: static/assets
 public_folder: /assets
 
 collections:
-    - name: page
-      label: Page
-      folder: content/pages
+    - name: people
+      label: People
+      folder: content/people
+      identifier_field: path
       create: true
       fields:
-        - {name: path, label: Path}
-        - {name: welcome, label: "Welcome Message", widget:
-            markdown}
+        - name: path
+          label: Path
+        - name: datetime
+          label: "Date time"
+          widget: datetime
+        - name: name
+          label: Name
+        - name: title
+          label: Title
+        - name: photo
+          label: Photo
+          widget: image
+        - name: avatar
+          label: Avatar
+          widget: image
+        - name: domain
+          label: Domain
+          widget: select
+          multiple: true
+          options:
+            - 'Leadership Team'
+            - 'Domain Experts'
+            - 'Board of Advisors'
+            - 'People of Genestack'
+        - name: body
+          widget: markdown
 

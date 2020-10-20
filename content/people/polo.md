@@ -5,15 +5,17 @@ name: Alexander
 title: Senior Developer
 photo: /assets/alex-big.jpg
 avatar: /assets/alex-sm.jpg
-domain: People of Genestack
+domain:
+  - People of Genestack
 ---
+
 ### What do you do at Genestack?
 
 I'm a Java developer responsible for the platform core.
 
 ### What do you like most about your job?
 
-Interesting tasks. I love creating new things and Genestack gives me opportunities to do it. 
+Interesting tasks. I love creating new things and Genestack gives me opportunities to do it.
 
 ### What did you do before joining Genestack?
 
