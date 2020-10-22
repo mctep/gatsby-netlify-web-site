@@ -80,7 +80,10 @@ export default function CompanyRoute(props: PageProps<any>) {
 
 export const query = graphql`
     query {
-        allMarkdownRemark(filter: {frontmatter: {domain: {in: "People of Genestack"}}}) {
+        allMarkdownRemark(
+            sort: {fields: frontmatter___datetime, order: DESC}
+            filter: {frontmatter: {domain: {in: "People of Genestack"}}}
+        ) {
             edges {
                 node {
                     id
