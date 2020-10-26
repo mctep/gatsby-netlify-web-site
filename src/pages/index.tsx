@@ -10,9 +10,12 @@ const Section = styled.section`
 const PostLink = styled(Link)`
     display: flex;
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     position: relative;
     height: 430px;
+    margin-bottom: 30px;
+    background-position: bottom center;
 `;
 
 const PostCard = styled.div`
