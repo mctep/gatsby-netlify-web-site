@@ -9,7 +9,7 @@ domain:
   - People of Genestack
 ---
 
-### What do you do at Genestack?
+### What do you do at Genestack??
 
 I'm a Java developer responsible for the platform core.
 
