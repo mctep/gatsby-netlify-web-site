@@ -2,7 +2,7 @@
 path: elena
 datetime: 2020-10-20T13:56:08.382Z
 name: Elena Zimina
-title: Frontend Developer & Business Analytic
+title: Frontend Developer
 photo: /assets/elena-big.jpg
 avatar: /assets/elena-sm.jpg
 domain:
