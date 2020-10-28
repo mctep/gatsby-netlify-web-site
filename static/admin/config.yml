@@ -1,5 +1,5 @@
 backend:
-    name: github
+    name: git-gateway
     repo: mctep/gatsby-netlify-web-site
 
 media_folder: static/assets
@@ -12,49 +12,49 @@ collections:
       identifier_field: path
       create: true
       fields:
-        - name: path
-          label: Path
-        - name: datetime
-          label: "Date time"
-          widget: datetime
-        - name: name
-          label: Name
-        - name: title
-          label: Title
-        - name: photo
-          label: Photo
-          widget: image
-        - name: avatar
-          label: Avatar
-          widget: image
-        - name: domain
-          label: Domain
-          widget: select
-          multiple: true
-          options:
-            - 'Leadership Team'
-            - 'Domain Experts'
-            - 'Board of Advisors'
-            - 'People of Genestack'
-        - name: body
-          widget: markdown
+          - name: path
+            label: Path
+          - name: datetime
+            label: "Date time"
+            widget: datetime
+          - name: name
+            label: Name
+          - name: title
+            label: Title
+          - name: photo
+            label: Photo
+            widget: image
+          - name: avatar
+            label: Avatar
+            widget: image
+          - name: domain
+            label: Domain
+            widget: select
+            multiple: true
+            options:
+                - "Leadership Team"
+                - "Domain Experts"
+                - "Board of Advisors"
+                - "People of Genestack"
+          - name: body
+            widget: markdown
     - name: posts
       label: Post
       folder: content/posts
       identifier_field: path
       create: true
       fields:
-        - name: path
-          label: Path
-        - name: datetime
-          label: "Date time"
-          widget: datetime
-        - name: preview
-          label: "Preview Image"
-          widget: image
-        - name: shortTitle
-          label: Short Title
-        - name: title
-          label: Title
-        - name: body
-          widget: markdown
+          - name: path
+            label: Path
+          - name: datetime
+            label: "Date time"
+            widget: datetime
+          - name: preview
+            label: "Preview Image"
+            widget: image
+          - name: shortTitle
+            label: Short Title
+          - name: title
+            label: Title
+          - name: body
+            widget: markdown
