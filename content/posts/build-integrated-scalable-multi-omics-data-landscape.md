@@ -3,11 +3,13 @@ path: build-integrated-scalable-multi-omics-data-landscape
 datetime: 2020-10-26T12:01:16.412Z
 preview: /assets/building-integrated-data-landscape-bioit2020-585x534px-dark.jpeg
 shortTitle: How to build a more integrated and scalable Omics Data Landscape
-title: 'Virtual talk: How to build a more integrated and scalable Omics Data
-    Landscape'
+title: "Virtual talk: How to build a more integrated and scalable Omics Data
+  Landscape"
 ---
 
 _Watch our presentation from **Bio-IT World 2020, with Kevin Dialdestoro, Head of Data Science Consulting at Genestack**._
+
+Hello World!
 
 **Omics data** has now become a key success ingredient, for **target identification** in research, to patient selection **in clinical trials**. However, we spend far too much time harmonizing and integrating data, rather than applying them. This is because of data silos, incompatible data and metadata, and scalability issues. So organizations are now striving for a more scalable and FAIR data landscape.
 
